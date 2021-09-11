@@ -1,0 +1,295 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: FFE6CC;
+    overflow: hidden;
+    border: black;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px 80px;
+    text-decoration: none;
+    font-size: 20px;
+    border-color: black;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: FFB570;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: FF8000;
+    color: black;
+  }
+   /* Background */
+   .body {
+    background-color: FFFFCC;
+    color: black;
+    text-align: center;
+    
+  }
+
+  .cd-form{
+    margin-top: 50px;
+  }
+ /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 15px 82px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 15px 88px;
+  background-color: FFE6CC;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: FFB570;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: FFB570;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.i1{
+  background-color: FFF2CC;
+ 
+  padding: 7px 25px;
+  
+  margin-left: 35px;
+}
+
+.i5{
+  background-color: FFF2CC;
+ margin-top: 25px;
+  padding: 7px 25px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+.i9{
+  margin-left: 100px;
+  background-color: FFF2CC;
+  margin-top: 25px;
+  padding: 7px 25px;
+  margin-bottom: 10px;
+  
+}
+/* Background */
+.body2 {
+  background-color: FFFFCC;
+  color: black;
+
+  
+}
+.i10{
+  background-color: FFF2CC;
+ margin-top: 30px;
+  padding: 7px 25px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.i11{
+  background-color: FFF2CC;
+ margin-top: 25px;
+  padding: 7px 40px;
+  margin-bottom: 10px;
+  
+  margin-right: 45px;
+  margin-left: 20px;
+}
+
+.s5{
+  background-color: FF8000;
+  border: 2px black;
+  padding: 8px 25px;
+  border-radius: 4px;
+  margin-left: 100px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.i9{
+  background-color: FFF2CC;
+  margin-top: 50px;
+   padding: 7px 25px;
+   margin-bottom: 10px;
+   margin-left: 150px;
+   font-size: 25px;
+}
+.l1{
+  
+  margin-top: 40px;
+   padding: 7px 25px;
+   margin-bottom: 10px;
+   
+   font-size: 20px;
+}
+
+.s6{
+  background-color: FF8000;
+  border: 2px black;
+  padding: 12px 35px;
+  border-radius: 4px;
+  margin-left: 600px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.i71{
+  background-color: FFF2CC;
+ margin-top: 50px;
+  padding: 7px 25px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.i6{
+  background-color: FFF2CC;
+ margin-top: 40px;
+  padding: 7px 30px;
+  
+  margin-left: 10px;
+}
+
+.i7{
+  background-color: FFF2CC;
+ margin-top: 40px;
+  padding: 7px 30px;
+  
+  margin-left: 10px;
+}
+
+.i2{
+  background-color: FFF2CC;
+  
+  padding: 7px 25px;
+  
+  margin-left: 20px;
+}
+
+.i3{
+  background-color: FFF2CC;
+  
+  padding: 7px 38px;
+  
+  margin-left: 30px;
+}
+
+.s1{
+  background-color: FF8000;
+  border: 2px black;
+  padding: 8px 25px;
+  border-radius: 4px;
+  margin-left: 60px;
+  font-size: 15px;
+}
+
+.s2{
+  background-color: FF8000;
+  border: 2px black;
+  padding: 8px 25px;
+  border-radius: 4px;
+  margin-left: 60px;
+  font-size: 15px;
+}
+
+.s3{
+  background-color: FF8000;
+  border: 2px black;
+  padding: 8px 25px;
+  border-radius: 4px;
+  margin-left: 60px;
+  font-size: 15px;
+}
+
+.s4{
+  background-color: FF8000;
+  border: 2px black;
+  padding: 8px 25px;
+  border-radius: 4px;
+  margin-left: 90px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+/* input[type=text] {
+
+  border: 2px FF8000;
+  padding: 7px 25px;
+  border-radius: 4px;
+  margin-left: 20px;
+ 
+}
+input[type=date] {
+  
+  border: 2px FF8000;
+  padding: 7px 25px;
+  border-radius: 4px;
+  margin-left: 20px;
+ 
+}
+input[type=submit] {
+  
+  border: 2px FF8000;
+  padding: 7px 25px;
+  border-radius: 4px;
+  margin-left: 20px;
+ 
+} */
