@@ -43,7 +43,7 @@
 				</div>
 				
 				<div class="icon">
-					<input class="b-author" type="text" name="b_author" placeholder="Report title" required />
+					<input class="b-author" type="text" name="b_title" placeholder="Report title" required />
 				</div>
 				
 				<div>
@@ -56,6 +56,8 @@
 	<?php
 		if(isset($_POST['b_add']))
 		{
+			$var_value=$_POST['b_title'];
+			$_SESSION['varname'] = $var_value;
 			header('location: categoryReportImpl.php');
 		}
 	?>

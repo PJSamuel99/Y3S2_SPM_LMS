@@ -1,7 +1,8 @@
 <?php
+session_start();
 require('fpdf/fpdf.php');
 $con = mysqli_connect('localhost', 'root', '', 'library_db');
-
+$var_value = $_SESSION['varname'].'.pdf';
 $pdf = new FPDF('l','mm','A5');
 $pdf->AddPage();
 $pdf->SetFont('Arial','B',16);
@@ -15,5 +16,5 @@ $sql = "SELECT * FROM categories";
 $result = $con->query($sql);
 while ($row = $result->fetch_assoc()){
     $pdf->Cell(60,6,$row['category_name'],1,1); 
-}$pdf->Output(); 
+}$pdf->Output('D', $var_value, true); 
 ?>
